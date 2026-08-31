@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Lucky 7’s Lounge — Somonauk, Illinois",
     description: 'Small-town nights, done properly.',
-    images: [{ url: '/og.png', width: 1200, height: 630, alt: "Lucky Seven’s Lounge cocktail bar" }],
+    images: [{ url: '/og.png', width: 2048, height: 1152, alt: "Lucky 7’s Lounge cocktails and video slots" }],
   },
   twitter: {
     card: 'summary_large_image',

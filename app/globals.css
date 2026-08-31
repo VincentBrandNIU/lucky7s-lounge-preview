@@ -50,7 +50,7 @@ h1 em { color:#cba65e; font-weight:400; }
 .scroll-cue i { margin-left:10px; color:#d0ad68; font-style:normal; }
 .velvet-intro { display:grid; grid-template-columns:.55fr 1.25fr .8fr; gap:48px; padding:clamp(85px,11vw,170px) clamp(22px,7vw,110px); background:#ede4d2; color:#241b15; }
 .section-number { font:10px/1 Arial,sans-serif; letter-spacing:.17em; text-transform:uppercase; }
-.script-note { margin:-32px 0 -8px; color:#9a7139; font-size:27px; font-style:italic; transform:rotate(-6deg); }
+.intro-label { margin:0 0 18px; color:#8b5d32; font:9px/1 Arial,sans-serif; font-weight:700; letter-spacing:.2em; text-transform:uppercase; }
 .velvet-intro h2 { margin:0; font-size:clamp(44px,5.2vw,76px); font-weight:400; line-height:.96; letter-spacing:-.045em; }
 .intro-copy { align-self:end; margin:0; color:#655a4e; font:15px/1.8 Arial,sans-serif; }
 .velvet-image-break { position:relative; margin:0; padding:0; background:#120c0b; }
@@ -188,7 +188,6 @@ h1 em { color:#cba65e; font-weight:400; }
   .hero-seal strong { font-size:36px; }
   .hero-foot .scroll-cue { display:none; }
   .velvet-intro { grid-template-columns:1fr; gap:30px; }
-  .script-note { margin-top:0; }
   .intro-copy { max-width:520px; }
   .velvet-offerings { grid-template-columns:1fr; }
   .velvet-events,.heritage-events,.dark-events { grid-template-columns:1fr; align-items:start; }

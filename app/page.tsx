@@ -34,12 +34,12 @@ export default function Home() {
 
       <section className="velvet-intro" id="story">
         <p className="section-number">01 / Welcome</p>
-        <div><p className="script-note">Stay awhile</p><h2>All the fun.<br />Right here in town.</h2></div>
+        <div><p className="intro-label">Somonauk, Illinois</p><h2>All the fun.<br />Right here in town.</h2></div>
         <p className="intro-copy">Lucky 7’s is Somonauk’s spot for gaming, food, drinks, and a lively calendar of events. Bring your crew, grab a pizza, and make a night of it.</p>
       </section>
 
       <figure className="velvet-image-break">
-        <img src="/og.png" alt="A classic cocktail in a warmly lit antique lounge with a dartboard" />
+        <img src="/og.png" alt="A crafted cocktail beside softly glowing video slot machines in a warmly lit lounge" />
         <figcaption>Concept photography · final imagery can feature the real room and drinks</figcaption>
       </figure>
 
