@@ -1,10 +1,12 @@
 import type { Metadata } from 'next';
 import './globals.css';
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://vincentbrandniu.github.io/lucky7s-lounge-preview';
+
 export const metadata: Metadata = {
   title: "Lucky 7’s Lounge — Somonauk, Illinois",
   description: 'Video slots, plastic-tip darts, Golden Tee, pizza, appetizers, crafted cocktails, and events in Somonauk, Illinois.',
-  metadataBase: new URL('https://lucky-sevens-lounge-concepts.vincentbrandniu.chatgpt.site'),
+  metadataBase: new URL(siteUrl),
   openGraph: {
     title: "Lucky 7’s Lounge — Somonauk, Illinois",
     description: 'Small-town nights, done properly.',

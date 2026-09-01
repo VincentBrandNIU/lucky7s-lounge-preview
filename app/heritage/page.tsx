@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { BrandLogo } from '@/components/brand-logo';
 import { ConceptSwitcher } from '@/components/concept-switcher';
 
 export default function HeritagePage() {
@@ -6,7 +7,7 @@ export default function HeritagePage() {
     <main className="heritage-shell">
       <ConceptSwitcher active="/heritage" />
       <header className="heritage-nav">
-        <Link href="#top" className="brand-image" aria-label="Lucky 7's Lounge home"><span>Lucky 7’s Lounge</span></Link>
+        <BrandLogo />
         <nav><Link href="#about">About</Link><Link href="#food">Food & drinks</Link><Link href="#games">Games</Link><Link href="#events">Events</Link></nav>
         <p>Somonauk · Illinois</p>
       </header>

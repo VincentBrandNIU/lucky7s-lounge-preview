@@ -1,5 +1,7 @@
 import Link from 'next/link';
+import { BrandLogo } from '@/components/brand-logo';
 import { ConceptSwitcher } from '@/components/concept-switcher';
+import { siteBasePath } from '@/lib/site-path';
 
 export default function Home() {
   return (
@@ -8,7 +10,7 @@ export default function Home() {
 
       <section className="velvet-hero">
         <header className="velvet-nav">
-          <Link href="#top" className="brand-image" aria-label="Lucky 7's Lounge home"><span>Lucky 7’s Lounge</span></Link>
+          <BrandLogo />
           <nav className="main-links" aria-label="Main navigation">
             <Link href="#drinks">Food & drinks</Link><Link href="#play">Play</Link><Link href="#events">Events</Link>
           </nav>
@@ -25,7 +27,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="hero-seal" aria-hidden="true"><span>Est.</span><strong>7</strong><span>Illinois</span></div>
+        <div className="hero-seal" aria-hidden="true"><span>Est.</span><strong>7</strong><span style={{ paddingTop: '0.5rem' }}>Illinois</span></div>
         <div className="hero-foot">
           <p><span>Tonight</span> Video slots · Plastic-tip darts · Good food</p>
           <p className="scroll-cue">Scroll to enter <i>↓</i></p>
@@ -39,7 +41,7 @@ export default function Home() {
       </section>
 
       <figure className="velvet-image-break">
-        <img src="/og.png" alt="A crafted cocktail beside softly glowing video slot machines in a warmly lit lounge" />
+        <img src={`${siteBasePath}/og.png`} alt="A crafted cocktail beside softly glowing video slot machines in a warmly lit lounge" />
         <figcaption>Concept photography · final imagery can feature the real room and drinks</figcaption>
       </figure>
 
