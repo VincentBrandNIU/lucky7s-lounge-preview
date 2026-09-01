@@ -57,7 +57,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="velvet-events" id="events"><p className="section-number">03 / What’s happening</p><div><h2>There’s always<br /><em>something going on.</em></h2><p>From dart nights and tournaments to parties, specials, and community gatherings, Lucky 7’s keeps the calendar full.</p></div><Link href="#visit">See upcoming events <span>↗</span></Link></section>
+      <section className="velvet-events" id="events"><p className="section-number">03 / What’s happening</p><div><h2>There’s always<br /><em>something going on.</em></h2><p>From parties, specials, and community gatherings, Lucky 7’s keeps the calendar full.</p></div><Link href="#visit">See upcoming events <span>↗</span></Link></section>
 
       <section className="velvet-visit" id="visit">
         <p className="kicker"><span /> Find your way in</p>

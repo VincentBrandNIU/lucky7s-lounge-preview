@@ -33,7 +33,7 @@ export default function HeritagePage() {
         <div className="ticket-row"><article><b>01</b><h3>Video slots</h3><p>Find your game and try your luck.</p></article><article><b>02</b><h3>Plastic-tip darts</h3><p>Call your shot and make it count.</p></article><article><b>03</b><h3>Golden Tee</h3><p>One more round takes on two meanings.</p></article></div>
       </section>
 
-      <section className="heritage-events" id="events"><p className="heritage-label">Always something happening</p><h2>Events bring everyone together.</h2><p>Dart nights, tournaments, parties, specials, and community get-togethers—follow Lucky 7’s for the latest lineup.</p><Link href="#visit">Plan your night →</Link></section>
+      <section className="heritage-events" id="events"><p className="heritage-label">Always something happening</p><h2>Events bring everyone together.</h2><p>Parties, specials, and community get-togethers—follow Lucky 7’s for the latest lineup.</p><Link href="#visit">Plan your night →</Link></section>
 
       <footer className="heritage-footer" id="visit"><h2>See you tonight.</h2><p>667 E Lasalle St · Somonauk, IL 60552</p><p>Video gaming · Food · Cocktails · Events</p></footer>
     </main>

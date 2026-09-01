@@ -28,7 +28,7 @@ export default function AfterDarkPage() {
       </section>
 
       <section className="dark-pour" id="pour"><p>02 / Food & drinks</p><h2>Fuel your<br />lucky streak.</h2><div><article><small>Hot & shareable</small><h3>Pizza</h3><p>A perfect table-side companion for game night.</p></article><article><small>Crave-worthy</small><h3>Appetizers</h3><p>Easy favorites made for sharing—or not.</p></article><article><small>From the bar</small><h3>Crafted cocktails</h3><p>Signature drinks, refreshing favorites, and cold beer.</p></article></div></section>
-      <section className="dark-events" id="events"><p>03 / On the calendar</p><h2>Somonauk<br />shows up.</h2><div><p>Lucky 7’s hosts a lively mix of dart nights, tournaments, parties, specials, and community events.</p><Link href="#visit">See what’s next ↗</Link></div></section>
+      <section className="dark-events" id="events"><p>03 / On the calendar</p><h2>Somonauk<br />shows up.</h2><div><p>Lucky 7’s hosts a lively mix of dart nights, parties, specials, and community events.</p><Link href="#visit">See what’s next ↗</Link></div></section>
       <footer className="dark-footer" id="visit"><h2>Meet us after dark.</h2><Link href="#top">Get directions ↗</Link><p>667 E Lasalle St · Somonauk, IL 60552 · Video gaming & slots</p></footer>
     </main>
   );
